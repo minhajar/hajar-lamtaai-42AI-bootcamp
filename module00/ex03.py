@@ -2,6 +2,8 @@ import string
 #use triple quotation mark on your text to avoid EOL error for very long string
 def text_analyzer(text):
     p=len(text)
+    if p==0:
+        return "text is empty"
     U=0
     L=0
     P=0
