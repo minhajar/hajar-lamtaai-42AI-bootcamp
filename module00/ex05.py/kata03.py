@@ -1,2 +1,2 @@
 phrase = "The right format"
-print("-"*25+phrase+"%")
+print("-"*(41-len(phrase)+phrase+"%")
