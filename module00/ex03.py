@@ -1,4 +1,5 @@
 import string
+#use triple quotation mark on your text to avoid EOL error for very long string
 def text_analyzer(text):
     p=len(text)
     U=0
