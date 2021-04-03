@@ -30,4 +30,8 @@ class Book:
             self.t=recipes_list
         def __str__ (self):
            return 'Book=(' + self.x + ',' + str(self.y) + ',' + str(self.z) +',' + str(self.t) +')'
+#example    
+book1 = Book("pastery", 2020, 2002,["cake","cupcakes","popcakes"])
+print(book1)
+    
         
