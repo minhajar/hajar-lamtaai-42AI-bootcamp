@@ -37,9 +37,9 @@ class Book:
             return self.t[self.f]
             pass
         def add_recipe(self, recipe):
-            recipe=Recipe(self.f)
+            
             for key in self.t:
-                 if self.t[key]==self.f:
+                 if self.t[key]==recipe.recipe_type:
                      self.t[key].append(recipe.recipe_name)
             pass
                      
