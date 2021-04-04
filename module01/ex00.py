@@ -44,7 +44,7 @@ class Book:
             pass
                      
                      
-#example    
+#test  
 book1 = Book("pastery", 2020, 2002,["cake","cupcakes","popcakes"])
 print(book1)
     
